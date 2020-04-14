@@ -7,17 +7,36 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
-.displayheroes h5{
-    color: #083b66;
+.breadcrumb p{
+    color: rgba(128, 128, 128, 1);
+    size: 25px;
+    font-weight: 500;
+    padding-right: 25px;
 }
-.collapse h2{
+.breadcrumb a{
+    color: #083b66;
+    font-weight: 600;
+}
+.breadcrumb a:hover{
+    color: #6d21df96;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.displayheroes h5{
     color: #083b66;
 }
 .h2-format{
     vertical-align: middle;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     color: #083b66;
+}
+.btn-primary{
+    background-color: #083b66;
+}
+.btn-primary:hover{
+    /* slightly lighter */
+    background-color: #3476ac;
 }
 footer p{
     color: white;
@@ -35,6 +54,7 @@ footer a{
 footer a:hover{
     color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 nav li{
@@ -49,15 +69,14 @@ nav a{
 
 #navbar {
     background-color: rgba(255, 255, 255, 0.8);
-    /* background-color: rgba(128, 128, 128, 0.5); */
     position: fixed;
     width: 100%;
     display: block;
     transition: top 0.3s;
     z-index: 999;
-  }
+}
   
-  #navbar a {
+#navbar a {
     float: left;
     display: block;
     color: #083b66;
@@ -66,11 +85,11 @@ nav a{
     text-decoration: none;
     transition: top 0.3s;
     font-size: 17px;
-  }
+}
   
-  #navbar a:hover {
+#navbar a:hover {
     background-color: #ddd;
-  }
+}
 
 #navbarNavAltMarkup > div > a.nav-item.nav-link:hover{
     color: #6d21df96;
@@ -118,8 +137,7 @@ footer{
 #accordionHeroes{
     margin-top: 50px;
 }
-
-#carousel{
+.firstdiv{
     margin-top: 165px;
 }
 
@@ -134,9 +152,6 @@ footer{
     width: 20%;
 }
 
-.hideDesk{
-    display: none;
-}
 .heroes{
     border-radius: 50%;
 }
@@ -158,9 +173,6 @@ footer{
 }
 #logo{
     width: 20%;
-}
-.hideDesk{
-    display: none;
 }
 #navbar{
     background-color: white;
@@ -209,9 +221,6 @@ footer{
     color: #083b66;
     transition: 0.2s;
 }
-.hideCel{
-    display: none;
-}
 .heroes{
     border-radius: 50%;
 }
@@ -224,6 +233,7 @@ footer{
 }
 /* end large (desktop) */
 
-
-
-
+#map{
+    width: 100%;
+    height: 400px;
+}
