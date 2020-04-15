@@ -7,6 +7,18 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
+.title{
+    padding: 50px;
+}
+#brand-footer{
+    width: 15%;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.image-container{
+    padding: 40px;
+}
 .breadcrumb p{
     color: rgba(128, 128, 128, 1);
     size: 25px;
@@ -37,24 +49,6 @@ body {
 .btn-primary:hover{
     /* slightly lighter */
     background-color: #3476ac;
-}
-footer p{
-    color: white;
-}
-
-footer h5{
-    color: white;
-}
-
-footer a{
-    color: white;
-    font-size: 17px;
-    text-decoration: none;
-}
-footer a:hover{
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
 }
 
 nav li{
@@ -100,20 +94,52 @@ nav a{
     margin: 10px;
     font-size: 20px;
     color: #083b66;
+    transition: 0.3s;
+}
+
+.faformatS{
+    margin: 10px;
+    font-size: 20px;
+    color: #083b66;
     transition: 0.2s;
+}
+.faformatF{
+    font-size: 15px;
+    padding: 10px;
+    color: rgba(236, 246, 255, 1);
 }
 
 footer{
-    background-color: grey;
+    background-color: black;
+}
+
+footer span{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer h5{
+    color: white;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(158, 176, 190, 1);
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 #copyright{
-    background-color: black;
+    background-color: rgba(128, 128, 128, 0.8);
     text-align: center;
 }
 
 #copyrightText{
-    color: grey;
+    color: rgba(236, 246, 255, 0.7);
     font-size: 10px;
 }
 .heroeswrapper{
@@ -138,7 +164,7 @@ footer{
     margin-top: 50px;
 }
 .firstdiv{
-    margin-top: 165px;
+    margin-top: 170px;
 }
 
 /* small (phones) */
